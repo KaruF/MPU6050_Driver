@@ -4,7 +4,7 @@ Complete driver for MPU6050 IMU
 
 Hi everyone,
 
-- It is going to be complete driver for mpu6050 and it won't be for any particular architecture. So you can easly implement it to your hardware!
+- It is going to be complete driver for mpu6050 and it won't be for any particular architecture. Communication layer is completely separated from specific hardware. So you can easly implement it to your hardware!
 - You just must write wrapper function to struct MPU6050_COMM_INIT send, receive function pointer. Like that:
 ```
 void MPU6050_ERR_CALLBACK(enum MPU6050_STAT mpu6050_err){
