@@ -12,12 +12,12 @@
 
 
 
-////****STATIC FUNCTIONS DECLARATIONS****////
+////****STATIC FUNCTIONS DECLARATIONS****/////
 static enum MPU6050_STAT MPU6050_Read_Gyro_Factory_Trim(struct MPU6050_STRUCT *mpu6050_str);
 
 
 
-////*************************************////
+////****FUNCTIONS DEFINITIONS****////
 
 struct MPU6050_STRUCT *MPU6050_Create_Instance(){
 
