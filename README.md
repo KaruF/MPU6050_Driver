@@ -33,5 +33,6 @@ uint8_t I2C_WRAPPER_READ(uint8_t slave_addr, uint8_t reg_addr, uint8_t* data, ui
 
 - At some point, i might publish linux version under this repository.
 
+- I will add Unit Tests after some point!
 
 Keep in touch!
